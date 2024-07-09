@@ -1,0 +1,231 @@
+/* fonts styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: "Poppins", sans-serif;
+}
+/* header section styles */
+.banner_section_container
+{
+    max-width: 1440px;
+    height: 650px;
+    background: rgba(229, 84, 115, 0.1);
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.banner_content
+{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.banner_text_container
+{
+    width: 50%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner_text_container button
+{
+    margin-right: 400px;
+    padding: 10px 33px;
+    width: 132.25px;
+    height: 48px;
+    background-color:rgb(229, 84, 115);
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: aliceblue;
+}
+.banner_text_container h3
+{
+    width: 530px;
+    height: 216px;
+    color: rgb(39, 39, 39);
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 66px;
+    text-align: left;
+}
+.banner_text_container p
+{
+    width: 475.5px;
+    height: 67.5px;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 50px;
+}
+/* bannar image styles */
+.bannar_image_contianer
+{
+    width: 50%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannar_image_contianer img
+{
+    width: 70%;
+    height: 550px;
+    margin-top: 100px;
+}
+
+/* main styles */
+
+.featured-image-container 
+{
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+.featured-title-container 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.featured-images 
+{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+    margin: 0 auto;
+}
+.first-image, .second-image, .third-image
+{
+    width: 30%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 50% 50% 0 0;
+    box-shadow: inset;
+}
+
+#first
+{
+    background-color: #f2dee7;
+}
+#second
+{
+    background-color: #DAF0F2;
+}
+#third
+{
+background-color: #e3ecdc;
+}
+
+/* instagram_section */
+
+.instagram_section_container
+{
+    width: 85%;
+    height: 1100px;
+    margin: 0 auto;
+}
+
+.instagram_text_content
+{
+    height: 132px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.instagram_text_content > h1, p
+{
+    text-align: center;
+}
+.first_insta_image
+{
+    height: 100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first_insta_image img
+{
+    height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: inset;
+}
+/* grid */
+.instagram_image_container
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.latest_deal_section
+{
+    height: 450px;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Resources/flower-shop-conceptual-b10/images/latest-deals-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.deals_container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.deals_buttons
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.deals_buttons input
+{
+    height: 64px;
+    width: 466px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+.deals_buttons button
+{
+    height: 64px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #E55473;
+    color: aliceblue;
+    border: none;
+}
